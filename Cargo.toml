@@ -1,0 +1,17 @@
+[package]
+name = "gd-mesh-render"
+version = "0.1.0"
+authors = ["Spu7Nix <spu7nix@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quick-xml = "0.17.2"
+base64 = "0.2.1"
+libflate = "0.1.27"
+crc32fast = "1.2.0"
+
+tobj = "2.0.2"
+itertools = "0.7.4"
+image = "0.23.13"
